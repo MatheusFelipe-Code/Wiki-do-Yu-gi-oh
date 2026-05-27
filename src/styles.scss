@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    height: 100vh;
+    padding-top: 70px;
+    background-color: #1a1a1a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primeiro-titulo {
+    color:rgb(255, 215, 0);
+    text-align: center;
+    font-family: 'IM Fell DW Pica SC', Arial,  sans-serif;
+}

@@ -1,0 +1,77 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+
+    background: rgba(20, 20, 20, 0.75);
+    backdrop-filter: blur(12px);
+    --webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.logo a {
+    font-family: 'IM Fell DW Pica SC', Arial, sans-serif;
+    font-size: 28px;
+    color:rgba(255, 215,0);
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 5px;
+    position: relative;
+    transition: color 0.3s ease;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(255, 215, 0);
+        transition: width 0.3s ease-in-out;
+    }
+
+    &.hover, &.active-link {
+        color: rgb(255, 215, 0);
+        text-shadow: 0 0 8px rgb(255, 215, 0, 0.3);
+
+
+        &::after {
+            width: 100%;
+        }
+    }
+}
+
+.nav-links li a:hover {
+    color: gold;
+    border-bottom: 2px solid;
+}
