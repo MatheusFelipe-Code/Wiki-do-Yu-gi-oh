@@ -1,0 +1,28 @@
+<main class="detalhe-page">
+    @if (reliquiaAtual) {
+        <div class="detalhe-container">
+            <a routerLink="/reliquias" class="btn-voltar">&#10094; Voltar para as Relíquias</a>
+
+            <div class="conteudo-principal">
+                <div class="imagem-destaque">
+                    <img [src]="reliquiaAtual.imagem" [alt]="reliquiaAtual.nome" />
+                </div>
+
+
+                <div class="texto-destaque">
+                    <h1>{{ reliquiaAtual.nome }}</h1>
+                    <div class="linha-divisoria"></div>
+                    <p>{{ reliquiaAtual.descricao }}</p>
+                </div>
+            </div>
+        </div>
+    }
+
+    @else {
+        <div class="erro-container">
+            <h1>Relíquia não encontrada</h1>
+            <p>O artefato que você procura foi perdido no Reino das Sombras.</p>
+            <a routerLink="/reliquias" class="btn-voltar">Voltar em segurança</a>
+        </div>
+    }
+</main>

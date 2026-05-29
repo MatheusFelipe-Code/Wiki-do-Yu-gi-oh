@@ -1,0 +1,20 @@
+<main class="reliquias-page">
+    <h1 class="titulo-pagina">Relíquias do Milênio</h1>
+    <p class="subtitulo">Os sete artefatos sagrados do antigo Egito. Escolha uma relíquia para descobrir os seus segredos.</p>
+
+    <div class="grid-reliquias">
+        @for (item of reliquias; track item.id) {
+
+            <div class="card-relquia" [routerLink]="['reliquias', item.id]">
+                <div class="imagem-container">
+                    <img [src]="item.imagem" [alt]="item.nome">
+                </div>
+                <div class="card-info">
+                    <h2>{{ item.nome }}</h2>
+                    <p>{{ item.descricaoCurta }}</p>
+                    <span class="btn-detalhes">Ver História Completa</span>
+                </div>
+            </div>
+        }
+    </div>
+</main>
