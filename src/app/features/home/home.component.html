@@ -14,14 +14,14 @@
         </p>
     </section>
 
-    <div class ="carrossel-container" (mouseenter)="pararCarrossel()" (mouseleave)="iniciarCarrossel()">
-        <div class="carrossel-trilho" [style.transform]="'translateX(-' + (contador *100) + '%)'">
+    <div class ="carrossel-container">
+        <div class="carrossel-trilho" [style.transform]="'translateX(-' + (indiceAtual * 100) + '%)'">
             <div class="carrossel-item"><img src="/assets/img/carrossel/fusoes-yu-gi-oh-forbidden-memories-1-1024x576.webp" alt="Yu-gi-Oh Forbidden"/></div>
-            <div class="carrossel-item"><img src="/assets/img/carrossel/yugioh-1024X576 (1) .jpg" alt="Yu-gi-Oh"/></div>
+            <div class="carrossel-item"><img src="/assets/img/carrossel/yugioh-1024x576 (1).jpg" alt="Yu-gi-Oh"/></div>
              <div class="carrossel-item"><img src="/assets/img/carrossel/passwords-de-yu-gi-oh-forbidden-memories-01-1024x576.webp" alt="Yu-gi-Oh Forbidden"/></div>
         </div>
-        <button class="carrossel-botao prev" (click)="moverAnterior()">&#10094;</button>
-        <button class="carrossel-botao next" (click)="moverProximo()">&#10095;</button>
+        <button class="carrossel-botao prev" (click)="slideAnterior()">&#10094;</button>
+        <button class="carrossel-botao next" (click)="proximoSlide()">&#10095;</button>
     </div>
 
     <section class="cards-acesso">

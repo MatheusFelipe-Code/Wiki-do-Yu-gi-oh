@@ -35,7 +35,7 @@ $cor-dorada: rgba(255, 215, 0);
 }
 
 .conteudo-principal {
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 5fr;
     gap: 50px;
     align-items: center;
@@ -82,14 +82,16 @@ $cor-dorada: rgba(255, 215, 0);
         width: 80px;
         background-color: $cor-dorada;
         margin-top: 25px;
+        margin-bottom: 25px;
     }
 
-    .p {
+    p {
         font-family: 'Open Sans', sans-serif;
-        color: #e0e0e0;
+        color: #ffffff !important;
         font-size: 18px;
         line-height: 1.8;
         text-align: justify;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
     }
 }
 

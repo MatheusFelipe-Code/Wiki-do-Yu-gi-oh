@@ -1,15 +1,17 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
 export class HomeComponent implements OnInit, OnDestroy {
-  contador = 0;
-  totalItens = 3;
+  indiceAtual: number = 0;
+  totalItens : number = 3;
   intervalo: any;
 
   ngOnInit() {
@@ -23,7 +25,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   iniciarCarrossel() {
 
     this.intervalo =setInterval(() => {
-      this.moverProximo();
+      this.proximoSlide();
     }, 4000);
   }
 
@@ -33,19 +35,11 @@ export class HomeComponent implements OnInit, OnDestroy {
     }
   }
 
-  moverProximo() {
-    if (this.contador < this.totalItens -1) {
-      this.contador++;
-    } else {
-      this.contador = 0;
-    }
+  proximoSlide() {
+    this.indiceAtual = (this.indiceAtual + 1) % this.totalItens;
   }
 
-  moverAnterior() {
-    if (this.contador > 0) {
-      this.contador--;
-    } else {
-      this.contador = this.totalItens -1;
-    }
+  slideAnterior() {
+    this.indiceAtual = (this.indiceAtual - 1 + this.totalItens) % this.totalItens;
   }
-}
+} 

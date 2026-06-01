@@ -94,11 +94,15 @@ $cor-dourada: rgba(255, 215, 0,);
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
-    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    padding: 10px 20px;
     align-self: flex-start;
-    transition: border-color 0.3s ease;
+    transition: all 0.3s ease;
 
+    &:hover,
     .card-reliquia:hover & {
+        background-color: rgba($cor-dourada, 0.1);
         border-color: $cor-dourada;
+        box-shadow: 0 4px 10px rgba($cor-dourada, 0.2);
     }
 }

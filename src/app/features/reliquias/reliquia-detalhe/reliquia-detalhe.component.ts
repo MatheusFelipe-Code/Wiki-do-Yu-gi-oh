@@ -21,13 +21,13 @@ export class ReliquiaDetalheComponent implements OnInit {
     {
       id: 'olho',
       nome: 'Olho do Milênio',
-      imagem: '/assets/img/itens/MillenniumEye.webp',
+      imagem: '/assets/img/itens/MilleniumEye.webp',
       descricao: 'Permite ao portador ler os pensamentos e ver através dos olhos de outras pessoas, além de conceder habilidades como a detecção de mentiras e a manipulação de almas.',
     },
     {
       id: 'anel',
       nome: 'Anel do Milênio',
-      imagem: '/assets/img/itens/MillenniumRing.webp',
+      imagem: '/assets/img/itens/MilleniumRing.webp',
       descricao: 'Permite ao portador controlar os outros e acessar o poder dos monstros do submundo, além de conceder habilidades como a manipulação de almas e a invocação de monstros.',
     },
     {
@@ -39,13 +39,13 @@ export class ReliquiaDetalheComponent implements OnInit {
     {
       id : 'balanca',
       nome: 'Balança do Milênio',
-      imagem: '/assets/img/itens/MillenniumScale.webp',
+      imagem: '/assets/img/itens/180px-MilleniumScale.webp',
       descricao: 'Permite ao portador medir a força de outras pessoas e determinar se elas são boas ou más, além de conceder habilidades como a manipulação de almas e a invocação de monstros.',
     },
     {
       id: 'vara',
       nome: 'Vara do Milênio',
-      imagem: '/assets/img/itens/MillenniumRod.webp',
+      imagem: '/assets/img/itens/180px-MilleniumRod.webp',
       descricao: 'Permite ao portador controlar os outros e acessar o poder dos monstros do submundo, além de conceder habilidades como a manipulação de almas e a invocação de monstros.',
     },
     {

@@ -12,7 +12,9 @@
                 <div class="card-info">
                     <h2>{{ item.nome }}</h2>
                     <p>{{ item.descricaoCurta }}</p>
-                    <span class="btn-detalhes">Ver História Completa</span>
+                        <div class="card-reliquia">
+                            <a [routerLink]="['/reliquias', item.id]" class="btn-detalhes"> Ver História Completa </a>
+                        </div>
                 </div>
             </div>
         }
