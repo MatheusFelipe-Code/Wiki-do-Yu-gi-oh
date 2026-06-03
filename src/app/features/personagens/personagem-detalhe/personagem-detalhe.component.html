@@ -1,0 +1,37 @@
+<div class ="detalhe-page">
+
+    @if (personagemAtual) {
+      <div class = "detalhe-container">
+
+        <a routerLink="/personagens" class="btn-voltar">&#10094; Voltar para a lista de Duelista</a>
+
+        <div class="conteudo-principal">
+
+            <div class="imagem-destaque">
+                <img [src]="personagemAtual.imagem" [alt]="personagemAtual.nome">
+            </div>
+
+            <div class="texto-destaque">
+                <h1>{{ personagemAtual.nome }}</h1>
+                <div class="linha-divisoria"></div>
+
+                <div class="status-duelista">
+                    <span class="label">Carta Principal:</span>
+                    <span class="valor">{{ personagemAtual.monstroPrincipal}}</span>
+                </div>
+
+                <p>{{ personagemAtual.descricao }}</p>
+
+            </div>
+        </div>
+
+      </div>  
+    } @else {
+      <div class="erro-container">
+        <h1>Duelista não encontrado!</h1>
+        <p>Este personagem pode ter sido banido para o Reino das Trevas...</p>
+        <a routerLink="/personagens" class="btn-voltar">&#10094; Retornar em segurança</a>
+      </div>
+    }
+
+</div>

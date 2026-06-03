@@ -1,0 +1,28 @@
+<main class="personagens-page">
+    <h1 class="titulo-pagina">Duelista</h1>
+    <p class="subtitulo">Conheça os duelistas do universo Yu-Gi-Oh!</p>
+
+    <div class="grid-personagens">
+        @for (personagem of personagens; track personagem.id) {
+
+            <div class="card-personagem" [routerLink]="['/personagens', personagem.id]">
+                <div class="imagem-container">
+                    <img [src]="personagem.imagem" [alt]="personagem.nome">
+                </div>
+
+                <div class="card-info">
+                    <h2>{{ personagem.nome }}</h2>
+                    <p class="descricao">{{ personagem.descricaoCurta }}</p>
+
+                    <div class="monstro-destaque">
+                        <span class="label">Ás do Baralho </span>
+                        <span class="nome-monstro">{{ personagem.monstroPrincipal }}</span>
+                    </div>
+
+                    <span class="btn-detalhes">Ver Perfil Completo</span>
+                </div>
+            </div>
+        }
+
+    </div>
+</main>

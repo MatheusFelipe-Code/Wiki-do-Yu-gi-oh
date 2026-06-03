@@ -110,3 +110,26 @@ $cor-dourada: rgba(255, 215, 0);
     }
 }
 
+
+.status-duelista {
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background: rgba(255, 215,0, 0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-left: 4px solid $cor-dourada;
+    display: inline-block;
+
+    .label {
+        color: $cor-dourada;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .valor {
+        color: #ffffff;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    }
+}
