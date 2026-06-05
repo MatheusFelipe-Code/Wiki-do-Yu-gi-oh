@@ -3,15 +3,21 @@
         <div class="logo">
             <a routerLink="/home">Yu-Gi-Oh Wiki</a>
         </div>
-        <ul class="nav-links">
+
+        <button class="menu-toggle" (click)="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul class="nav-links" [class.aberto]="menuAberto">
             <li>
-                <a routerLink="/home" routerLinkActive="active-link">Inicio</a>
+                <a routerLink="/home" routerLinkActive="active-link" (click)="fecharMenu()">Inicio</a>
             </li>
             <li>
-                <a routerLink="/personagens" routerLinkActive="active-link">Personagens</a>
+                <a routerLink="/personagens" routerLinkActive="active-link" (click)="fecharMenu()">Personagens</a>
             </li>
             <li>
-                <a routerLink="/reliquias" routerLinkActive="active-link">Relíquias do Milênio</a>
+                <a routerLink="/reliquias" routerLinkActive="active-link" (click)="fecharMenu()" >Relíquias do Milênio</a>
             </li>
         </ul>
     </nav>

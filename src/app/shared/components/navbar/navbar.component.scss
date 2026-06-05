@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     padding: 10px 20px;
     color: white;
     position: fixed;
@@ -9,11 +9,11 @@
     left: 0;
     width: 100%;
     z-index: 999;
-
+    box-sizing: border-box; 
 
     background: rgba(20, 20, 20, 0.75);
     backdrop-filter: blur(12px);
-    --webkit-backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); 
     border-bottom: 1px solid rgba(255, 215, 0, 0.15);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
@@ -21,7 +21,7 @@
 .logo a {
     font-family: 'IM Fell DW Pica SC', Arial, sans-serif;
     font-size: 28px;
-    color:rgba(255, 215,0);
+    color: rgba(255, 215, 0);
     text-decoration: none;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     letter-spacing: 2px;
@@ -37,6 +37,11 @@
     list-style: none;
     display: flex;
     gap: 35px;
+    margin: 0; 
+    padding: 0; 
+
+    align-self: flex-start;
+    margin-top: 8px;
 }
 
 .nav-links li a {
@@ -49,6 +54,7 @@
     position: relative;
     transition: color 0.3s ease;
     
+
     &::after {
         content: '';
         position: absolute;
@@ -60,10 +66,9 @@
         transition: width 0.3s ease-in-out;
     }
 
-    &.hover, &.active-link {
+    &:hover, &.active-link {
         color: rgb(255, 215, 0);
-        text-shadow: 0 0 8px rgb(255, 215, 0, 0.3);
-
+        text-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
 
         &::after {
             width: 100%;
@@ -71,7 +76,71 @@
     }
 }
 
-.nav-links li a:hover {
-    color: gold;
-    border-bottom: 2px solid;
+.menu-toggle {
+  display: none; 
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 215, 0);
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+
+  .menu-toggle {
+    display: flex; 
+  }
+
+
+  .nav-links {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    flex-direction: column; 
+    text-align: center;
+    gap: 0;
+    align-self: center; 
+    margin-top: 0; 
+    
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    border-bottom: 2px solid rgb(255, 215, 0);
+    z-index: 1000;
+
+    &.aberto {
+      max-height: 300px; 
+    }
+
+    li {
+      width: 100%;
+    }
+
+    a {
+      display: block; 
+      padding: 15px 0;
+      border-top: 1px solid #333; 
+      
+
+      &::after {
+        display: none;
+      }
+    }
+  }
 }
