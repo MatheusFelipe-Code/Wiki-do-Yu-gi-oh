@@ -149,3 +149,89 @@ $cor-dourada: rgba(255, 215, 0);
         text-align: justify;
     }
 }
+
+.deck-secao {
+    margin-top: 40px;
+
+    h3 {
+        color: rgb(255, 215, 0);
+        font-family: 'IM Fell DW Pica SC', sans-serif;
+        font-size: 26px;
+        border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+        padding-bottom: 8px;
+        margin-bottom: 20px;
+    }
+}
+
+.deck-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .carta-miniatura {
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+        img {
+            width: 100px;
+            border-radius: 5px;
+            border: 2px solid transparent;
+        }
+
+        &:hover {
+            transform: translateY(-5px);
+            img {
+                border: 2px solid rgb(255, 215, 0);
+                box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);
+            }
+        }
+
+    }
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-conteudo {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+
+    .carta-ampliada {
+        max-height: 80vh;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    }
+
+    .btn-fechar {
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        background-color: #ff3333;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        transition: background 0.2s;
+
+        &:hover {
+            background-color: #ff0000;
+        }
+    }
+}

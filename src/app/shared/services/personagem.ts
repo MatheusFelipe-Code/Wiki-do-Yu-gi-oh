@@ -20,7 +20,13 @@ export class PersonagemService {
       imagem: '/assets/img/personagens/Yugi_muto.webp',
       descricaoCurta: 'O garoto de coração puro que montou o Enigma do Milênio e se tornou o parceiro inseparável do Faraó.',
       monstroPrincipal:'Mago Silencioso / Gandora',
-      historia:'Yugi era um garoto tímido e gentil que costumava sofrer bullying na escola. Sua vida mudou completamente quando ele conseguiu montar o antigo artefato egípcio chamado Enigma do Milênio. Ao fazer isso, ele despertou o espírito de um Faraó sem nome. Ao longo de sua jornada, Yugi prova que sua verdadeira força não vem apenas de seu alter-ego sombrio, mas de sua própria bondade, coragem e na crença inabalável no Coração das Cartas e nos laços de amizade.'
+      historia:'Yugi era um garoto tímido e gentil que costumava sofrer bullying na escola. Sua vida mudou completamente quando ele conseguiu montar o antigo artefato egípcio chamado Enigma do Milênio. Ao fazer isso, ele despertou o espírito de um Faraó sem nome. Ao longo de sua jornada, Yugi prova que sua verdadeira força não vem apenas de seu alter-ego sombrio, mas de sua própria bondade, coragem e na crença inabalável no Coração das Cartas e nos laços de amizade.',
+
+      cartas: [
+        { nome: 'Mago Negro', imagem: '/assets/img/cartas/Mago Negro Yugioh.png'},
+        { nome: 'Rei Caveira', imagem: '/assets/img/cartas/Rei Caveira Yugioh.png'},
+        { nome: 'Kuriboh', imagem: '/assets/img/cartas/Kuriboh Yugioh.jpg'}
+      ]
     },
     {
       id: 'kaiba',

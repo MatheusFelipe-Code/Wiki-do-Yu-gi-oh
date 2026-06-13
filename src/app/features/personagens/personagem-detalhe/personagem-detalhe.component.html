@@ -27,6 +27,27 @@
                   <p>{{ personagemAtual.historia }}</p>
                 </div>
 
+                @if (personagemAtual.cartas && personagemAtual.cartas.length > 0) {
+                  <div class="deck-secao">
+                    <h3>Deck Principal</h3>
+                    <div class="deck-grid">
+                      @for (carta of personagemAtual.cartas; track carta.nome) {
+                        <div class="carta-miniatura" (click)="abrirCarta(carta)">
+                          <img [src]="carta.imagem" [alt]="carta.nome">
+                        </div>
+                      }
+                    </div>
+                  </div>
+                } @if (cartaSelecionada) {
+                  <div class="modal-overlay" (click)="fecharCarta()">
+
+                    <div class="modal-conteudo" (click)="$event.stopPropagation()">
+                      <button class="btn-fechar" (click)="fecharCarta()">X</button>
+                      <img [src]="cartaSelecionada.imagem" [alt]="cartaSelecionada.nome" class="carta-ampliada">
+                    </div>
+
+                  </div>
+                }
             </div>
         </div>
 

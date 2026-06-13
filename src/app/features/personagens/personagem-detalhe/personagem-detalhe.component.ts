@@ -14,6 +14,8 @@ export class PersonagemDetalheComponent implements OnInit {
 
   personagemAtual: any;
 
+  cartaSelecionada: any = null;
+
  constructor(
   private route: ActivatedRoute,
   private personagemService: PersonagemService
@@ -25,5 +27,13 @@ export class PersonagemDetalheComponent implements OnInit {
   if(idDaUrl){
     this.personagemAtual = this.personagemService.getPersonagemPorId(idDaUrl);
   }
+ }
+
+ abrirCarta(carta: any) {
+  this.cartaSelecionada = carta;
+ }
+
+ fecharCarta() {
+  this.cartaSelecionada = null;
  }
 }
