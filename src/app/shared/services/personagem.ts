@@ -41,9 +41,22 @@ export class PersonagemService {
       historia:'Yugi era um garoto tímido e gentil que costumava sofrer bullying na escola. Sua vida mudou completamente quando ele conseguiu montar o antigo artefato egípcio chamado Enigma do Milênio. Ao fazer isso, ele despertou o espírito de um Faraó sem nome. Ao longo de sua jornada, Yugi prova que sua verdadeira força não vem apenas de seu alter-ego sombrio, mas de sua própria bondade, coragem e na crença inabalável no Coração das Cartas e nos laços de amizade.',
 
       cartas: [
-        { nome: 'Mago Negro', imagem: '/assets/img/cartas/Mago Negro Yugioh.png'},
-        { nome: 'Rei Caveira', imagem: '/assets/img/cartas/Rei Caveira Yugioh.png'},
-        { nome: 'Kuriboh', imagem: '/assets/img/cartas/Kuriboh Yugioh.jpg'}
+        { nome: 'Mago Silencioso Lv4', imagem: '/assets/img/cartas/Deck do Yugi/Mago Silencioso LV4.avif'},
+        { nome: 'Mago Silencioso Lv8', imagem: '/assets/img/cartas/Deck do Yugi/Mago Silencioso LV8.avif'},
+        { nome: 'Gandora', imagem: '/assets/img/cartas/Deck do Yugi/Gandora.webp'},
+        { nome: 'Alpha Magnet Warrior', imagem: '/assets/img/cartas/Deck do Yugi/Alpha The Magnet Warrior.jpg'},
+        { nome: 'Ganma Magnet Warrior', imagem: '/assets/img/cartas/Deck do Yugi/Ganma The Magnet Warrior.jpg'},
+        { nome: 'Beta Magnet Warrior', imagem: '/assets/img/cartas/Deck do Yugi/Beta The Magnet Warrior.jpg'},
+        { nome: 'Beta The Electromagnet Warrior', imagem: '/assets/img/cartas/Deck do Yugi/Beta The Electromagnet Warrior.jpg'},
+        { nome: 'Valkyrion The Magna Warrior', imagem: '/assets/img/cartas/Deck do Yugi/Valkyrion The Magna Warrior.jpg'},
+        { nome: 'Mirror Force', imagem: '/assets/img/cartas/Deck do Yugi/Mirror Force.jpg'},
+        { nome: 'Magnet Conversion', imagem: '/assets/img/cartas/Deck do Yugi/Magnet Conversion.jpg'},
+        { nome: 'Buster Blade', imagem: '/assets/img/cartas/Deck do Yugi/Buster Blade.jpg'},
+        { nome: 'Desfusao', imagem: '/assets/img/cartas/Deck do Yugi/Desfusão.jpg'},
+        { nome: 'Magic Cylinder', imagem: '/assets/img/cartas/Deck do Yugi/Magic Cylinder.jpg'},
+        { nome: 'Magnetic Field', imagem: '/assets/img/cartas/Deck do Yugi/Magnetic Field.jpg'},
+        { nome: 'Sword of Revealing', imagem: '/assets/img/cartas/Deck do Yugi/Swords Of Revealing Light.jpg'},
+
       ]
     },
     {
