@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { PersonagemService } from '../../../shared/services/personagem';
@@ -14,10 +14,22 @@ export class PersonagensListComponent implements OnInit {
   
   personagens: any[] = [];
 
-  constructor(private personagemService: PersonagemService) {}
+  constructor(private personagemService: PersonagemService, private cdr: ChangeDetectorRef) {}
 
   ngOnInit(): void {
-    this.personagens = this.personagemService.getTodosPersonagens();
+    this.personagemService.getTodosPersonagens()
+
+    .subscribe({
+      next:(dadosQueChegaramDoJava) => {
+
+        this.personagens = dadosQueChegaramDoJava;
+        console.log("Dados do Banco de Dados:", this.personagens);
+        this.cdr.detectChanges();
+      },
+      error: (erro) => {
+        console.error('Ops, o Spring Boot deve estar desligado!', erro);
+      }
+    });
   }
   
 }

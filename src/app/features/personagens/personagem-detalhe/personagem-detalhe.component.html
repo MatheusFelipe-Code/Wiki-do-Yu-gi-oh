@@ -1,14 +1,20 @@
-<div class ="detalhe-page">
+<div class="detalhe-page">
 
-    @if (personagemAtual) {
-      <div class = "detalhe-container">
+    @if (carregando) {
+      <div class="carregando-container">
+        <h2>Acessando o Enigma do Milênio...</h2>
+      </div>
+    } 
+    
+    @else if (personagemAtual) {
+      <div class="detalhe-container">
 
         <a routerLink="/personagens" class="btn-voltar">&#10094; Voltar para a lista de Duelista</a>
 
         <div class="conteudo-principal">
 
             <div class="imagem-destaque">
-                <img [src]="personagemAtual.imagem" [alt]="personagemAtual.nome">
+                <img [src]="personagemAtual.imagemUrl" [alt]="personagemAtual.nome">
             </div>
 
             <div class="texto-destaque">
@@ -20,7 +26,7 @@
                     <span class="valor">{{ personagemAtual.monstroPrincipal}}</span>
                 </div>
 
-                <p>{{ personagemAtual.descricao }}</p>
+                <p>{{ personagemAtual.descricaoCurta }}</p>
 
                 <div class="biografia">
                   <h3>História</h3>
@@ -38,21 +44,23 @@
                       }
                     </div>
                   </div>
-                } @if (cartaSelecionada) {
+                } 
+                
+                @if (cartaSelecionada) {
                   <div class="modal-overlay" (click)="fecharCarta()">
-
                     <div class="modal-conteudo" (click)="$event.stopPropagation()">
                       <button class="btn-fechar" (click)="fecharCarta()">X</button>
                       <img [src]="cartaSelecionada.imagem" [alt]="cartaSelecionada.nome" class="carta-ampliada">
                     </div>
-
                   </div>
                 }
             </div>
         </div>
 
       </div>  
-    } @else {
+    } 
+    
+    @else {
       <div class="erro-container">
         <h1>Duelista não encontrado!</h1>
         <p>Este personagem pode ter sido banido para o Reino das Trevas...</p>

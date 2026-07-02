@@ -64,7 +64,6 @@ $cor-dourada: rgba(255, 215, 0);
 .texto-destaque {
     flex: 1;
 
-
     h1 {
         margin-top: 0;
         font-family: 'IM Fell DW Pica SC', sans-serif;
@@ -90,6 +89,19 @@ $cor-dourada: rgba(255, 215, 0);
     }
 }
 
+/* === NOVA CLASSE DE LOADING COM ANIMAÇÃO === */
+.carregando-container {
+    text-align: center;
+    color: $cor-dourada;
+    padding: 50px;
+
+    h2 {
+        font-family: 'IM Fell DW Pica SC', sans-serif;
+        font-size: 32px;
+        animation: pulsarTexto 1.5s infinite ease-in-out;
+    }
+}
+
 .erro-container {
     text-align: center;
     color: white;
@@ -104,7 +116,6 @@ $cor-dourada: rgba(255, 215, 0);
         font-size: 18px;
     }
 }
-
 
 .status-duelista {
     margin-bottom: 20px;
@@ -233,5 +244,21 @@ $cor-dourada: rgba(255, 215, 0);
         &:hover {
             background-color: #ff0000;
         }
+    }
+}
+
+/* === ANIMAÇÕES === */
+@keyframes pulsarTexto {
+    0% {
+        opacity: 0.5;
+        text-shadow: 0 0 5px transparent;
+    }
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+    }
+    100% {
+        opacity: 0.5;
+        text-shadow: 0 0 5px transparent;
     }
 }
