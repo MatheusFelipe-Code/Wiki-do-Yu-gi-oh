@@ -1,0 +1,135 @@
+[
+  {
+    "nome": "Yugi Muto",
+    "descricaoCurta": "O Rei dos Jogos.",
+    "monstroPrincipal": "Gandora",
+    "imagemUrl": "/assets/img/personagens/Yugi_muto.webp",
+    "historia": "Yugi era um garoto tímido que resolveu o Enigma do Milênio...",
+    "cartas": []
+  },
+  {
+    "nome": "Seto Kaiba",
+    "descricaoCurta": "O CEO da KaibaCorp.",
+    "monstroPrincipal": "Dragão Branco de Olhos Azuis",
+    "imagemUrl": "/assets/img/personagens/Seto_Kaiba.webp",
+    "historia": "Kaiba é um gênio arrogante e o maior rival de Yugi...",
+    "cartas": []
+  },
+  {
+    "nome": "Yami Yugi",
+    "descricaoCurta": "O Faraó",
+    "monstroPrincipal": "Mago Negro",
+    "imagemUrl": "/assets/img/personagens/yami yugi.jpg",
+    "historia": "Faraó o duelista Supremo",
+    "cartas": [
+      {
+        "nome": "Mago Negro",
+        "imagem": "/assets/img/cartas/Deck do Yami Yugi/Mago Negro Yugioh.png"
+      }
+    ]
+  },
+  {
+    "nome": "Joey Wheeler",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Dragão Negro de Olhos Vermelhos",
+    "imagemUrl": "/assets/img/personagens/joey.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Tristan Taylor",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Comandante Cibernético",
+    "imagemUrl": "/assets/img/personagens/Tristan_Taylor.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Tea Gardner",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Pequena Maga Negra",
+    "imagemUrl": "/assets/img/personagens/Tea Gardner.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Mai Valentine",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Harpia",
+    "imagemUrl": "/assets/img/personagens/Mai Valentine.png",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Marik",
+    "descricaoCurta": "",
+    "monstroPrincipal": "O Dragão Alado de Rá",
+    "imagemUrl": "/assets/img/personagens/Marik.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Bakura Ryou",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Troca de Corações",
+    "imagemUrl": "/assets/img/personagens/Bakura Ryou.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Mokuba Kaiba",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Hambúrguer Faminto",
+    "imagemUrl": "/assets/img/personagens/Mokuba_Kaiba.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Yami Bakura",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Necrofear das Trevas",
+    "imagemUrl": "/assets/img/personagens/Yami Bakura.jpg",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Yami Marik",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Golem de Lava",
+    "imagemUrl": "/assets/img/personagens/Yami_marik.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Shadi",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Golem do Milênio",
+    "imagemUrl": "/assets/img/personagens/Shadi.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Maximillion Pegasus.",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Renunciado",
+    "imagemUrl": "/assets/img/personagens/MaximillionPegasus.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Duke Devlin",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Orgoth, o Implacável",
+    "imagemUrl": "/assets/img/personagens/DukeDevlin.webp",
+    "historia": "",
+    "cartas": []
+  },
+  {
+    "nome": "Ishizu Ishtar",
+    "descricaoCurta": "",
+    "monstroPrincipal": "Zolga",
+    "imagemUrl": "/assets/img/personagens/Ishizu Ishtar.webp",
+    "historia": "",
+    "cartas": []
+  }
+]
