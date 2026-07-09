@@ -4,8 +4,69 @@
     "descricaoCurta": "O Rei dos Jogos.",
     "monstroPrincipal": "Gandora",
     "imagemUrl": "/assets/img/personagens/Yugi_muto.webp",
-    "historia": "Yugi era um garoto tímido que resolveu o Enigma do Milênio...",
-    "cartas": []
+    "historia": "Yugi Muto é o protagonista central da série e o hospedeiro do espírito do Faraó Atem. Originalmente um estudante do ensino médio tímido e de coração puro, frequentemente alvo de intimidação, sua vida mudou para sempre ao passar oito anos tentando desvendar o Enigma do Milênio, um antigo artefato egípcio presenteado por seu avô. Ao encaixar a última peça, Yugi despertou o espírito de um antigo rei, passando a compartilhar o mesmo corpo em momentos de perigo. Ao longo de sua jornada em torneios como o Reino dos Duelistas e a Batalha da Cidade, Yugi prova que a verdadeira força não reside no poder de intimidação, mas sim na confiança no 'Coração das Cartas' e nos laços inquebráveis com seus amigos. Com o tempo, ele evolui de um garoto inseguro para um duelista lendário e independente, culminando no emocionante Duelo Cerimonial.",
+    "cartas": [
+      {
+        "nome": "Alpha The Magnet Warrior",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Alpha The Magnet Warrior.jpg"
+      },
+      {
+        "nome": "Beta The Electromagnet Warrior",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Beta The Electromagnet Warrior.jpg"
+      },
+      {
+        "nome": "Beta The Magnet Warrior",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Beta The Magnet Warrior.jpg"
+      },
+      {
+        "nome": "Buster Blade",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Buster Blade.jpg"
+      },
+      {
+        "nome": "Desfusao",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Desfusão.jpg"
+      },
+      {
+        "nome": "Gandora",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Gandora.webp"
+      },
+      {
+        "nome": "Ganma The Magnet Warrior",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Ganma The Magnet Warrior.jpg"
+      },
+      {
+        "nome": "Magic Cylinder",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Magic Cylinder.jpg"
+      },
+      {
+        "nome": "Magnet Conversion",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Magnet Conversion.jpg"
+      },
+      {
+        "nome": "Magnetic Field",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Magnetic Field.jpg"
+      },
+      {
+        "nome": "Mago Silencioso LV4",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Mago Silencioso LV4.avif"
+      },
+      {
+        "nome": "Mago silencioso LV8",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Mago Silencioso LV8.avif"
+      },
+      {
+        "nome": "Mirror Force",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Mirror Force.jpg"
+      },
+      {
+        "nome": "Espada da Luz Reveladora",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Swords Of Revealing Light.jpg"
+      },
+      {
+        "nome": "ValKyrion The Magna Warrior",
+        "imagem": "/assets/img/cartas/Deck do Yugi/Valkyrion The Magna Warrior.jpg"
+      }
+    ]
   },
   {
     "nome": "Seto Kaiba",
@@ -20,11 +81,67 @@
     "descricaoCurta": "O Faraó",
     "monstroPrincipal": "Mago Negro",
     "imagemUrl": "/assets/img/personagens/yami yugi.jpg",
-    "historia": "Faraó o duelista Supremo",
+    "historia": "Yami Yugi, mais tarde revelado como o antigo Faraó Atem, é um espírito ancestral que selou a própria alma dentro do Enigma do Milênio para salvar o mundo da entidade maligna Zorc Necrophades. Ao ter seu quebra-cabeça montado pelo jovem Yugi Muto milhares de anos depois, ele despertou no mundo moderno sem memórias de seu passado. Inicialmente agindo como um justiceiro sombrio que punia malfeitores com os perigosos \"Jogos das Trevas\", ele foi gradualmente amolecido pelo coração puro de Yugi. Juntos, eles formam uma parceria imbatível. A jornada principal do Faraó envolve proteger o mundo de novas ameaças místicas, recuperar suas memórias perdidas no antigo Egito e entender o verdadeiro significado da amizade antes de poder, finalmente, descansar em paz.",
     "cartas": [
       {
         "nome": "Mago Negro",
         "imagem": "/assets/img/cartas/Deck do Yami Yugi/Mago Negro Yugioh.png"
+      },
+      {
+        "nome": "Cartolas Magicas",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Cartolas Mágicas Yugioh.png"
+      },
+      {
+        "nome": "Caixa Mistica",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Caixa Mística Yugioh.png"
+      },
+      {
+        "nome": "Espadas da Luz Reveladora",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Espadas da Luz Reveladora Yugioh.jpg"
+      },
+      {
+        "nome": "Gaia o Campeao do Dragao",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Gaia o Campeão do Dragão Yugioh.png"
+      },
+      {
+        "nome": "Gaia o Cavaleiro Impetuoso",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Gaia o Cavaleiro Impetuoso.jpg"
+      },
+      {
+        "nome": "Guardiao Celta",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Guardião Celta Yugioh.png"
+      },
+      {
+        "nome": "Polimerizaçao",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Polimerização Yugioh.png"
+      },
+      {
+        "nome": "Kuriboh",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Kuriboh Yugioh.jpg"
+      },
+      {
+        "nome": "Rei Caveira",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Rei Caveira Yugioh.png"
+      },
+      {
+        "nome": "Ritual do Lustro Negro",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Ritual do Lustro Negro Yugioh.png"
+      },
+      {
+        "nome": "Solado do Lustro Negro",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Soldado do Lustro Negro Yugioh.png"
+      },
+      {
+        "nome": "Maldiçao do Dragao",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Maldição do Dragão Yugioh.png"
+      },
+      {
+        "nome": "Mago do Caos das Trevas",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Mago do Caos das Trevas Yugioh.png"
+      },
+      {
+        "nome": "Monstro que Renasce",
+        "imagem" : "/assets/img/cartas/Deck do Yami Yugi/Monstro que Renasce Yugioh.png"
       }
     ]
   },
