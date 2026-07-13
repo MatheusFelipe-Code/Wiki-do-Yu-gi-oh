@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/personagens")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://wiki-yugioh-front.onrender.com"})
 public class PersonagemController {
 
   @Autowired
