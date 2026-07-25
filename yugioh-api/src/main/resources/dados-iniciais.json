@@ -70,11 +70,72 @@
   },
   {
     "nome": "Seto Kaiba",
-    "descricaoCurta": "O CEO da KaibaCorp.",
+    "descricaoCurta": "O CEO da KaibaCorp e o arrogante rival supremo de Yugi.",
     "monstroPrincipal": "Dragão Branco de Olhos Azuis",
     "imagemUrl": "/assets/img/personagens/Seto_Kaiba.webp",
-    "historia": "Kaiba é um gênio arrogante e o maior rival de Yugi...",
-    "cartas": []
+    "historia": "Seto Kaiba é um gênio da tecnologia, um prodígio dos negócios e o implacável presidente da KaibaCorp, empresa que herdou de seu padrasto. Arrogante, pragmático e extremamente autoconfiante, Kaiba recusa-se a acreditar em magia ou no 'Coração das Cartas', preferindo confiar exclusivamente em estatísticas, estratégias elaboradas e poder bruto. Sua obsessão em derrotar Yugi e recuperar o título de melhor duelista do mundo o leva a criar tecnologias revolucionárias para o Duelo de Monstros, como os Discos de Duelo holográficos. Apesar de sua postura fria e egocêntrica, Kaiba possui um lado protetor intenso, dedicando sua vida a garantir a segurança de seu irmão mais novo, Mokuba. Sua carta assinatura, o Dragão Branco de Olhos Azuis, é o símbolo perfeito de seu poder e orgulho esmagadores.",
+    "cartas": [
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Dragão Branco.jpg"
+      },
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Flauta do Dragão.jpg"
+      },
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Senhor do Dragões.jpg"
+      },
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Raio Explosivo.jpg"
+      },
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Touro Guerreiro.jpg"
+      },
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Ultimate Dragão Branco de Olhos Azuis.jpg"
+      },
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Negativação de Ataque.jpg"
+      },
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Virus Esmaga Card.jpg"
+      },
+      {
+        "nome": "Dragao Branco",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Anel da Destruição.jpg"
+      },
+      {
+        "nome": "Espada da Luz Reveladora",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Perdição Selienciosa.jpg"
+      },
+      {
+        "nome": "Espada da Luz Reveladora",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Controlador de Inimigos.jpg"
+      },
+      {
+        "nome": "Espada da Luz Reveladora",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Majestade com Azul nos Olhos.jpg"
+      },
+      {
+        "nome": "Espada da Luz Reveladora",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Pote da Ganancia.jpg"
+      },
+      {
+        "nome": "Espada da Luz Reveladora",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Paladin White Dragon.jpg"
+      },
+      {
+        "nome": "Espada da Luz Reveladora",
+        "imagem": "/assets/img/cartas/Deck do Kaiba/Obelisk.jpg"
+      }
+    ]
   },
   {
     "nome": "Yami Yugi",
@@ -147,106 +208,106 @@
   },
   {
     "nome": "Joey Wheeler",
-    "descricaoCurta": "",
+    "descricaoCurta": "O melhor amigo de Yugi e um duelista movido pela garra e determinação.",
     "monstroPrincipal": "Dragão Negro de Olhos Vermelhos",
     "imagemUrl": "/assets/img/personagens/joey.webp",
-    "historia": "",
+    "historia": "Joey Wheeler começou sua jornada como um valentão de bom coração que costumava implicar com Yugi. No entanto, após Yugi defendê-lo de um brutamontes maior, os dois formaram um laço de amizade inquebrável. Diferente de Kaiba ou Yugi, Joey não é um gênio dos duelos, mas compensa sua falta de técnica inicial com pura paixão, instinto e uma sorte incrível com cartas de aposta e roleta. Seu principal objetivo ao entrar no torneio Reino dos Duelistas era ganhar o prêmio em dinheiro para pagar a cirurgia ocular de sua irmã mais nova, Serenity. Com o tempo, ele evolui de um novato impulsivo para um duelista de classe mundial, provando seu valor e ganhando o respeito até mesmo de seus maiores rivais com seu fiel monstro, o Dragão Negro de Olhos Vermelhos.",
     "cartas": []
   },
   {
     "nome": "Tristan Taylor",
-    "descricaoCurta": "",
+    "descricaoCurta": "O braço forte e o guardião leal dos amigos de Yugi",
     "monstroPrincipal": "Comandante Cibernético",
     "imagemUrl": "/assets/img/personagens/Tristan_Taylor.webp",
-    "historia": "",
+    "historia": "Tristan Taylor, assim como Joey, começou como um encrenqueiro na escola antes de se tornar um dos aliados mais fiéis e dedicados de Yugi. Ele não é um jogador ativo de Duelo de Monstros e raramente participa de partidas oficiais, mas seu papel na equipe é fundamental em outros aspectos. Tristan é a força física do grupo, sempre pronto para usar seus punhos para proteger seus amigos de ameaças reais e capangas dos vilões. Com uma personalidade franca, impulsiva e muitas vezes servindo como alívio cômico, ele esconde um forte senso de justiça e lealdade. Durante as aventuras, Tristan está sempre na linha de frente explorando ou resgatando reféns, provando que não é preciso ter um deck poderoso para ser um herói indispensável.",
     "cartas": []
   },
   {
     "nome": "Tea Gardner",
-    "descricaoCurta": "",
+    "descricaoCurta": "O coração e a voz da razão do grupo de amigos",
     "monstroPrincipal": "Pequena Maga Negra",
     "imagemUrl": "/assets/img/personagens/Tea Gardner.webp",
-    "historia": "",
+    "historia": "Téa Gardner é a amiga de infância de Yugi e o verdadeiro pilar emocional de todo o grupo. Embora não seja uma duelista profissional como Yugi ou Joey, ela possui um profundo conhecimento do jogo e frequentemente atua como a bússola moral da equipe, lembrando a todos sobre a importância da amizade e da confiança quando as coisas ficam sombrias. Foi Téa quem desenhou o símbolo da amizade nas mãos do grupo durante o Reino dos Duelistas, garantindo que eles sempre se lembrassem de sua união. Corajosa, obstinada e com o sonho de se tornar uma dançarina profissional em Nova York, ela nunca hesita em enfrentar grandes perigos para proteger Yugi e o Faraó, sendo uma das poucas pessoas capazes de acalmar a fúria de Yami Yugi.",
     "cartas": []
   },
   {
     "nome": "Mai Valentine",
-    "descricaoCurta": "",
+    "descricaoCurta": "Uma duelista orgulhosa e independente que encontra a verdadeira força na amizade",
     "monstroPrincipal": "Harpia",
     "imagemUrl": "/assets/img/personagens/Mai Valentine.png",
-    "historia": "",
+    "historia": "Mai Valentine começou sua carreira como uma duelista solitária, usando seu charme e truques, como o seu famoso 'Aroma Tático', para enganar e derrotar seus oponentes. Acostumada a cuidar de si mesma desde cedo, ela construiu uma barreira ao redor de seu coração, acreditando que não precisava de ninguém além de si mesma e de suas amadas 'Harpies' (Harpistas). No entanto, ao cruzar o caminho de Yugi e, principalmente, de Joey Wheeler durante o torneio Reino dos Duelistas, ela começa a entender o valor da amizade verdadeira e do trabalho em equipe. Ao longo da série, Mai se transforma de uma adversária egoísta em uma aliada valiosa, provando ser uma das duelistas mais formidáveis e habilidosas do mundo, sempre buscando provar o seu próprio valor.",
     "cartas": []
   },
   {
     "nome": "Marik",
-    "descricaoCurta": "",
+    "descricaoCurta": "O líder vingativo dos Caçadores Raros, corrompido pelas trevas e pela dor",
     "monstroPrincipal": "O Dragão Alado de Rá",
     "imagemUrl": "/assets/img/personagens/Marik.webp",
-    "historia": "",
+    "historia": "Marik Ishtar nasceu como o herdeiro dos Guardiões da Tumba, uma linhagem destinada a proteger os segredos do antigo Faraó até o seu retorno. Ressentido por ter sido forçado a viver no subsolo e a suportar o doloroso ritual de iniciação de sua família, o ódio de Marik gerou uma dupla personalidade sombria (Yami Marik) e o levou a distorcer completamente sua missão. Ele fundou os Caçadores Raros (Ghouls), uma organização criminosa de roubo de cartas, com o objetivo de reunir as três Cartas de Deuses Egípcios, derrotar o Faraó e tomar o seu título. Portador da Vara do Milênio, Marik usa o controle mental e os cruéis Jogos das Trevas para torturar seus oponentes. Sua jornada na Batalha da Cidade é marcada por dor, rebelião e a busca por libertar sua verdadeira alma das trevas.",
     "cartas": []
   },
   {
     "nome": "Bakura Ryou",
-    "descricaoCurta": "",
+    "descricaoCurta": "Um estudante gentil cujo corpo é hospedeiro de um espírito ancestral e sádico",
     "monstroPrincipal": "Troca de Corações",
     "imagemUrl": "/assets/img/personagens/Bakura Ryou.webp",
-    "historia": "",
+    "historia": "Bakura Ryou é um colega de classe de Yugi Muto, conhecido por sua natureza doce, educada e extremamente pacífica. No entanto, sua vida é assombrada por um artefato que seu pai adquiriu no antigo Egito: o Anel do Milênio. Assim como o Enigma do Milênio fez com Yugi, o Anel concedeu a Bakura um espírito, mas, ao invés de um governante nobre, ele abriga Yami Bakura, uma entidade cruel e manipuladora baseada em um antigo Rei dos Ladrões. Yami Bakura frequentemente toma o controle do corpo do jovem contra a sua vontade para realizar seus próprios objetivos obscuros, que envolvem reunir todas as Relíquias do Milênio e despertar um poder sombrio. Apesar de ser constantemente feito refém por essa força maligna, o verdadeiro Bakura luta ao máximo para apoiar Yugi e seus amigos em sua jornada.",
     "cartas": []
   },
   {
     "nome": "Mokuba Kaiba",
-    "descricaoCurta": "",
+    "descricaoCurta": "O irmão mais novo de Seto Kaiba e vice-presidente da KaibaCorp",
     "monstroPrincipal": "Hambúrguer Faminto",
     "imagemUrl": "/assets/img/personagens/Mokuba_Kaiba.webp",
-    "historia": "",
+    "historia": "Mokuba é o único elo de afeição genuína no coração endurecido de Seto Kaiba. Sequestrado e feito de refém inúmeras vezes por inimigos de seu irmão (incluindo Pegasus e Marik), Mokuba demonstra uma coragem surpreendente para a sua idade. Ele tem uma visão mais inocente e compassiva do mundo do que Seto, frequentemente intercedendo a favor de Yugi e seus amigos, reconhecendo a honra deles. Como braço direito do irmão na KaibaCorp, Mokuba é fundamental na organização de eventos grandiosos, sendo o maior fã e o apoio incondicional de Kaiba.",
     "cartas": []
   },
   {
     "nome": "Yami Bakura",
-    "descricaoCurta": "",
+    "descricaoCurta": "Um espírito maligno do antigo Egito focado em reunir as Relíquias do Milênio",
     "monstroPrincipal": "Necrofear das Trevas",
     "imagemUrl": "/assets/img/personagens/Yami Bakura.jpg",
-    "historia": "",
+    "historia": "Habitante do Anel do Milênio, Yami Bakura é a manifestação do antigo Rei dos Ladrões, uma entidade impiedosa movida por vingança contra a corte do Faraó. Diferente de Yami Yugi, ele toma o controle do corpo de seu hospedeiro, o gentil Ryou Bakura, à força, usando-o como peão em seus esquemas sádicos. Um mestre dos Jogos das Trevas e de um deck focado em estratégias de ocultismo e cartas sombrias (como o temível Tabuleiro do Destino), seu objetivo final é reunir as sete Relíquias do Milênio e reviver a divindade maligna Zorc Necrophades, mergulhando o mundo no caos.",
     "cartas": []
   },
   {
     "nome": "Yami Marik",
-    "descricaoCurta": "",
+    "descricaoCurta": "A personificação sádica do ódio e do trauma de Marik Ishtar",
     "monstroPrincipal": "Golem de Lava",
     "imagemUrl": "/assets/img/personagens/Yami_marik.webp",
-    "historia": "",
+    "historia": "Nascido da dor excruciante do ritual de iniciação dos Guardiões da Tumba e do ódio que Marik sentia por seu destino cruel, Yami Marik é uma das entidades mais puramente malignas e instáveis da série. Ele tomou o controle total de Marik durante as finais da Batalha da Cidade. Usando o poder divino e devastador do Dragão Alado de Rá e criando Jogos das Trevas brutais que causam dor física real, Yami Marik não busca apenas o poder do Faraó, mas sim a destruição absoluta e o sofrimento alheio por puro prazer.",
     "cartas": []
   },
   {
     "nome": "Shadi",
-    "descricaoCurta": "",
+    "descricaoCurta": "O enigmático guardião das Relíquias do Milênio",
     "monstroPrincipal": "Golem do Milênio",
     "imagemUrl": "/assets/img/personagens/Shadi.webp",
-    "historia": "",
+    "historia": "Shadi é um homem misterioso e de poucas palavras, encarregado de proteger as Relíquias do Milênio e testar aqueles que ousam empunhá-las. Portando a Chave do Milênio, que lhe permite entrar no labirinto da mente das pessoas, e a Balança do Milênio, que pesa a verdade e a escuridão da alma, Shadi atua como um juiz invisível no mundo das sombras. Embora seus testes extremos o levem a confrontar Yugi no início, ele se revela um guia espiritual fundamental para ajudar o Faraó a desvendar os mistérios de seu passado esquecido.",
     "cartas": []
   },
   {
     "nome": "Maximillion Pegasus.",
-    "descricaoCurta": "",
+    "descricaoCurta": "O genial e excêntrico criador do Duelo de Monstros moderno e portador do Olho do Milênio",
     "monstroPrincipal": "Renunciado",
     "imagemUrl": "/assets/img/personagens/MaximillionPegasus.webp",
-    "historia": "",
+    "historia": "Presidente da Ilusões Industriais, Pegasus foi o responsável por transformar as antigas magias egípcias no fenômeno global do jogo de cartas Duelo de Monstros. Motivado pela trágica perda de sua amada esposa Cecelia, ele viajou ao Egito e recebeu o Olho do Milênio, ganhando o poder de ler mentes e selar almas em cartas. Como o principal antagonista do Reino dos Duelistas, ele organizou o torneio para capturar a alma do avô de Yugi e chantagear Seto Kaiba. Apesar de seus métodos cruéis e de usar um bizarro e imprevisível deck de monstros 'Toon' (Desenho Animado), Pegasus é, no fundo, um homem consumido pelo luto.",
     "cartas": []
   },
   {
     "nome": "Duke Devlin",
-    "descricaoCurta": "",
+    "descricaoCurta": "O carismático e brilhante inventor do jogo Monstros do Dado Masmorra",
     "monstroPrincipal": "Orgoth, o Implacável",
     "imagemUrl": "/assets/img/personagens/DukeDevlin.webp",
-    "historia": "",
+    "historia": "Duke Devlin é um criador de jogos prodígio que guardava um profundo rancor contra Yugi. Após Pegasus cancelar a parceria para lançar seu novo jogo, Monstros do Dado Masmorra, devido à sua derrota traumática contra Yugi, Duke buscou vingança tentando humilhar o Rei dos Jogos em sua própria criação. No entanto, após um duelo tenso onde Yugi o derrota em um jogo que nunca havia jogado, ele percebe a verdadeira natureza de seu adversário. Duke deixa a inimizade de lado e se torna um forte aliado do grupo, usando seu raciocínio rápido para ajudá-los em momentos cruciais.",
     "cartas": []
   },
   {
     "nome": "Ishizu Ishtar",
-    "descricaoCurta": "",
+    "descricaoCurta": "Uma guardiã do antigo Egito que busca salvar a alma de seu irmão das trevas",
     "monstroPrincipal": "Zolga",
     "imagemUrl": "/assets/img/personagens/Ishizu Ishtar.webp",
-    "historia": "",
+    "historia": "Ishizu é a sábia irmã mais velha de Marik e ex-portadora do Colar do Milênio, que lhe concedia a habilidade de prever o futuro. Ao perceber que seu irmão havia sido consumido pelo ódio, ela dedicou sua vida a impedi-lo. Atuando como curadora de uma exposição histórica, Ishizu orquestrou o torneio da Batalha da Cidade junto com Seto Kaiba, entregando a ele a carta de Deus Egípcio 'Obelisco, o Atormentador' para atrair os caçadores de Marik. Com uma fé inabalável no destino, ela depositou todas as suas esperanças em Yugi para derrotar a escuridão e libertar o seu irmão de seu terrível tormento.",
     "cartas": []
   }
 ]
